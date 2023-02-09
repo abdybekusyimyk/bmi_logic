@@ -27,11 +27,12 @@ Future<void> showMyDialog({
             ],
           ),
         ),
-        actions: <Widget>[
+        actions: [
           TextButton(
             child: const Text('Кайра эсепте'),
             onPressed: () {
               Navigator.of(context).pop();
+              // textDirectionToAxisDirection(textDirection);
             },
           ),
         ],
